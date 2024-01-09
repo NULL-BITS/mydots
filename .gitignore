@@ -1,0 +1,22 @@
+# Ignore everything
+/*
+
+# But not these files...
+!.gitignore
+!alacritty/
+!cava/
+!foot/
+!/gtk-3.0/
+!/gtk-4.0/
+!/hypr/
+!/images/
+!/menus/
+!/mpv/
+!/mpvpaper/
+!/neofetch/
+!/nvim/
+!/rofi/
+!/spicetify/
+!/swaync/
+!/Thunar/
+!/waybar/
