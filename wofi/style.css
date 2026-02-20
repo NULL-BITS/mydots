@@ -1,0 +1,50 @@
+window {
+    margin: 0px;
+    background-color: rgba(24, 24, 37, 0.6); /* Dunkles Glas mit leichtem Blaustich */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    font-family: "JetBrains Mono", "monospace";
+    font-size: 14px;
+}
+
+#input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #cdd6f4;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#inner-box {
+    margin: 10px;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: transparent;
+}
+
+#text {
+    margin: 5px;
+    color: #cdd6f4;
+}
+
+/* Der ausgewählte Eintrag leuchtet leicht */
+#entry:selected {
+    background-color: rgba(137, 180, 250, 0.3); /* Hellblaues Glas-Highlight */
+    border-radius: 10px;
+    outline: none;
+}
+
+#entry:selected #text {
+    color: #89b4fa;
+    font-weight: bold;
+}
+
+#entry:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
