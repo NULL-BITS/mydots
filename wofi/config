@@ -1,0 +1,28 @@
+# --- LAYOUT ---
+width=500
+height=400
+location=center
+show=drun
+prompt=Suche...
+
+# --- BEHAVIOR ---
+# Filtert sofort während des Tippens
+filter_rate=100
+# Erlaubt Icons in der Liste (passend zu deinem -I Parameter)
+allow_images=true
+# Schließt Wofi, wenn der Fokus verloren geht
+always_parse_args=true
+# Verhindert unnötige Aktionen, nur Apps starten
+no_actions=true
+
+# --- APPEARANCE ---
+# Sorgt dafür, dass der Inhalt die volle Breite nutzt
+halign=fill
+content_halign=fill
+orientation=vertical
+
+# Sucht unabhängig von Groß-/Kleinschreibung
+insensitive=true
+
+# Cache deaktivieren, falls du oft Apps installierst/deinstallierst
+cache_file=/dev/null
