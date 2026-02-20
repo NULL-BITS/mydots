@@ -1,3 +1,8 @@
+# Install 
+
+**To apply my dots just copy paste this into you terminal. Make a backup of your own files before!**
+</br>
+
 ```bash
 git clone https://github.com/NULL-BITS/mydots-Hyprland && cp -r mydots-Hyprland/* ~/.config/
 ```
